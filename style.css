@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  padding-left: 25.46px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #272c3d;
+  color: white;
+}
+ol {
+  display: flex;
+  gap: 25.46px;
+  font-family: Quantico;
+}
+ol :hover{
+    color: #FF9C28;
+}
+.select {
+  padding-right: 36.92px;
+  gap: 38.19px;
+}
+input {
+  background-color: #404864;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.idd {
+  background-color: #272c3d;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+.bkk {
+background-image: url(./images/Bg\ \(9\).png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.major {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45.76px;
+  font-family: Quantico;
+  background-color: black;
+}
+.chevron {
+  display: flex;
+  gap: 40.13px;
+  padding-left: 44.59px;
+  padding-right: 44.59px;
+  justify-content: center;
+  background-color: #000000;
+  align-items: center;
+  padding-bottom: 59.11px;
+}
+.fa-solid{
+    font-size: 50px;
+}
+.pgl{
+    display: flex;
+    padding-left: 245px;
+    padding-right: 204px;
+    align-items: center;
+    gap: 17px;
+    background-color: #1B1E27;
+    padding-bottom: 142px;
+}
+.pgl2{
+    display: flex;
+    padding-left: 245px;
+    padding-right: 204px;
+    align-items: center;
+    gap: 17px;
+    background-color: #1B1E27;
+}
+.ant{
+    padding-bottom: 30px;
+    padding-top: 61px;
+    font-family: Quantico;
+    font-weight: 400;
+    color: white;
+    font-size: 24px;
+}
+.this{
+    width: 300px;
+    padding-top: 110px;
+    line-height: 20.02px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BFBFBF;
+    font-family: Quantico;
+}
+.this2{
+    width: 370px;
+    padding-top: 220px;
+    line-height: 20.02px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BFBFBF;
+    font-family: Quantico;
+    padding-bottom: 129px;
+}
+footer{
+    padding: 20px 47px;
+    background-color: #272C3D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Quantico;
+    font-weight: 400;
+    font-size: 20px;
+}
+.blog{
+    gap: 25.46px;
+    display: flex;
+    align-items: center;
+}
+.blog :hover{
+    color: #FF9C28;
+}
